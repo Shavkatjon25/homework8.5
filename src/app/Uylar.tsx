@@ -3,7 +3,7 @@ import Image from "next/image"
 
 function Uylar() {
   return (
-    <div className="px-[15px] pb-[22px] mb-[30px] bg-white">
+    <div className="pb-[22px] mb-[30px] bg-white">
 
         <div>
             <div className="w-[95px] mt-[-10px] h-[70px] bg-white flex flex-col justify-center items-center absolute">

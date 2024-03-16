@@ -81,12 +81,73 @@ export default function Home() {
               <Image src="/lg.svg" height={38} width={69} alt="cv"/>
               <p className="heder_p">Сервис поиска квартир, домов и аренды авто по привлекательным ценам</p>
               </div>
-      </header>
 
+      </header>
+      <div className="hidden lg:block w-full">
+                  <Image src="/bgurl.png"  width={1000} height={333} className="w-full block absolute z-[0] h-[333px]" alt="" />
+                <div className="z-20 relative w-[1170px] mx-auto pt-[61px]">
+                  <div className="flex justify-between">
+                    <div className="flex gap-[30px]">
+                      <h2 className="divh2">Поиск квартир</h2>
+                        <select name="" id="" className="bg-[#ff000000]">
+                        <option value="" className="bg-none">на сутки</option>
+                        </select>
+                    </div>
+                    <div className="flex gap-[87px]">
+                      <div className="flex gap-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                        <path d="M17.8984 3.68359H3.89844C2.79387 3.68359 1.89844 4.57902 1.89844 5.68359V19.6836C1.89844 20.7882 2.79387 21.6836 3.89844 21.6836H17.8984C19.003 21.6836 19.8984 20.7882 19.8984 19.6836V5.68359C19.8984 4.57902 19.003 3.68359 17.8984 3.68359Z" stroke="#FFDF42" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M14.8984 1.68359V5.68359" stroke="#FFDF42" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M6.89844 1.68359V5.68359" stroke="#FFDF42" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M1.89844 9.68359H19.8984" stroke="#FFDF42" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                        <h3 className="hh">Выбрать даты</h3>
+                      </div>
+                      <div className="flex gap-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
+                        <path d="M7.98177 0.683594C4.076 0.683594 0.898438 3.93289 0.898438 7.92681C0.898438 12.8834 7.23733 20.1599 7.50721 20.4673C7.76071 20.756 8.20329 20.7555 8.45633 20.4673C8.72621 20.1599 15.0651 12.8834 15.0651 7.92681C15.065 3.93289 11.8875 0.683594 7.98177 0.683594ZM7.98177 11.5711C6.01668 11.5711 4.41801 9.93626 4.41801 7.92681C4.41801 5.91735 6.01672 4.28258 7.98177 4.28258C9.94682 4.28258 11.5455 5.91739 11.5455 7.92685C11.5455 9.9363 9.94682 11.5711 7.98177 11.5711Z" fill="#FFDF42"/>
+                      </svg>
+                        <h3 className="hh">Ваш регион Минск</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex w-[1170px] bg-white h-[60px] items-center rounded-full pl-[26px] mt-[19px] justify-between">
+                      <h2 className="hx">Цена:</h2>
+                      <p className="px">0 — 1500</p>
+                      <select name="" id="">
+                        <option value="">BYN</option>
+                      </select>
+                      <h2 className="hx">Тип жилья:</h2>
+                      <select name="" id="" className="px">
+                        <option value="" >квартира-студия</option>
+                      </select>
+                      <h2 className="hx">Кол-во комнат:</h2>
+                      <button className="w-[30px] h-[30px] border-solid border-[2px] border-[#ffdf42] bg-[#ffdf42]">1</button>
+                      <button className="w-[30px] h-[30px] border-solid border-[2px] border-[#ffdf42]">2</button>
+                      <button className="w-[30px] h-[30px] border-solid border-[2px] border-[#ffdf42]">3</button>
+                      <button className="w-[30px] h-[30px] border-solid border-[2px] border-[#ffdf42]">4</button>
+                      <button className="w-[30px] h-[30px] border-solid border-[2px] border-[#ffdf42]">5</button>
+                      <button className="h-full px-[81px] bg-[#FFDF42] rounded-full">ПОИСК</button>
+                  </div>
+                  <div className="flex gap-[60px] mt-3">
+                      <h2 className="hh">+ Район</h2>
+                      <h2 className="hh">+ Улица</h2>
+                      <h2 className="hh">+ Метро</h2>
+                      <h2 className="hh">+ Удобства</h2>
+                      <h2 className="hh">+ Спальные места</h2>
+                  </div>
+                  <div className=" mt-[70px] pb-8 text-center">
+                    <p className="hh">Найдено результатов: 285</p>
+                  </div>
+                </div>
+                
+
+              </div>
 
 
       <main className="pt-[22px]">
-        <div>
+        <div className="lg:w-[1240px]">
 
           <div>
 

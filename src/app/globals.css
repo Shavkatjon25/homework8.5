@@ -138,3 +138,35 @@
   font-weight: 300;
   line-height: normal;
 }
+
+.divh2{
+  color: #F0F0F0;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hh{
+  font-family: Roboto;
+  font-size: 18px;
+  letter-spacing: 0em;
+  color: white;  
+}
+.hx{
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #458BD1;  
+}
+.px{
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #211A1D;
+  opacity: 0.4;
+}
